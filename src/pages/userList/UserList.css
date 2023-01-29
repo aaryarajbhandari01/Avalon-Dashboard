@@ -1,0 +1,76 @@
+
+.userList {
+    height: 600px;
+    padding: 20px;
+  }
+
+  /* .userListUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+   */
+  .userListEdit{
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      background-color: #3b6cb0;
+      color: white;
+      cursor: pointer;
+      margin-right: 20px;
+  }
+  
+  .userListDelete{
+      color: rgb(193, 8, 8);
+      cursor: pointer;
+  }
+
+  .userList .cellWithStatus.active {
+    background-color: rgba(0, 128, 0, 0.05);
+    color: green;
+  }
+  .userList .cellWithStatus.pending {
+    background-color: rgba(255, 217, 0, 0.05);
+    color: goldenrod;
+  }
+  .userList .cellWithStatus.passive {
+    background-color: rgba(255, 0, 0, 0.05);
+    color: crimson;
+  }
+
+  /* for avatar img */
+  
+ .userList .cellWithImg {
+    display: flex;
+    align-items: center;
+  }
+   .userList .cellWithImg .cellImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+   .userList .cellWithStatus {
+    padding: 5px;
+    border-radius: 5px;
+  }
+   .userList .cellWithStatus.active {
+    background-color: rgba(0, 128, 0, 0.05);
+    color: green;
+  }
+   .userList .cellWithStatus.pending {
+    background-color: rgba(255, 217, 0, 0.05);
+    color: goldenrod;
+  }
+   .userList .cellWithStatus.passive {
+    background-color: rgba(255, 0, 0, 0.05);
+    color: crimson;
+  }
